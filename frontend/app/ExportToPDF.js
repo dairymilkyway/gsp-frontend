@@ -2,9 +2,6 @@ import * as Print from "expo-print";
 import * as Sharing from "expo-sharing";
 import * as FileSystem from "expo-file-system";
 import { calculateTotalCost, PRICES } from './utils'; // Import both functions
-import { Platform } from "react-native";
-import greensphereLogo from "../assets/images/greenspherelogos.png";
-import tupLogo from "../assets/images/tuplogos.png";
 
 const formatDate = () => {
   const today = new Date();

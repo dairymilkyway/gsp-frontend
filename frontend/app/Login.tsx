@@ -35,7 +35,7 @@ export default function Login() {
           apiUrl,
           { email, password },
           {
-            timeout: 5000, // Increased timeout to 5 seconds
+            timeout: 1000, // Increased timeout to 5 seconds
             headers: { 'Content-Type': 'application/json' }, // Add headers if required
           }
         );

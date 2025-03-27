@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "frontend",
+    "name": "GreenSphere",
     "slug": "frontend",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/greenspherelogo.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -16,15 +16,16 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/images/greenspherelogo.png",
+        "backgroundColor": "#0F1238"
       },
-      "package": "com.anonymous.frontend"
+      "package": "com.anonymous.frontend",
+      "versionCode": 2
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/greenspherelogo.png"
     },
     "plugins": [
       "expo-router",
@@ -32,9 +33,9 @@
         "expo-splash-screen",
         {
           "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
+          "imageWidth": 100,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#0F1238"
         }
       ]
     ],
